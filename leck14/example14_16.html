@@ -1,0 +1,24 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>
+Селекторы атрибутов
+        </title>
+        <style>
+A[href$=".ru"]{
+    /*Если заканчивается на .ru*/
+    background: url(brrbrrpatapim.jpg) no-repeat 0 6 px;/*Добавляем фоновый рисунок*/
+    padding-left: 12px; /*Смещаем текста вправо*/
+}
+A[href$=".com"]{
+    /*Если ссылка заканчивается на .com*/
+    background: url(com.png) no-repeat 0 6px;
+    padding-left: 12px;
+}
+        </style>
+    </head>
+    <body>
+        <p><a href="http://www.yandex.com">Yandex.com</a>|
+        <a href="http://www.yandex.ru">Yandex.ru</a></p>
+    </body>
+</html>
