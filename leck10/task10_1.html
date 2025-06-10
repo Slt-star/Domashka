@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Формы</title>
+    </head>
+    <body align="center">
+        <p>Форма регистрации</p>
+        <form name="formal">
+            
+            
+            <p><label for="name">Имя </label><input name="name"></p>
+            
+            <p><label for="e-mail" style="position: relative; right: 5;">e-mail </label><input type="email" name="e-mail" style="position: relative; right: 5;"></p>
+            
+            <p><label for="password"style="position: relative; right: 10;">Пароль </label><input type="password" name="password"style="position: relative; right: 10;"></p>
+            
+            <p><label for="passwordrepeat"style="position: relative; right: 35;">Повтор пароля </label><input type="password" name="passwordrepeat"style="position: relative; right: 35;"></p>
+            
+            <p><label for="M">Пол </label><input type="radio" name="M" value="M" checked> мужской<input type="radio" name="M" value="Ж">женский</p>
+            
+            <p><label for="select1" style="position: relative;bottom: 105;">Увлечения </label><select name="select1" size="7" multiple>
+                     <option value="компюьтеры" selected>компюьтеры</option>
+                     <option value="спорт">спорт</option>
+                     <option value="игры">игры</option>
+                     <option value="животные">животные</option>
+                     <option value="автомобили">автомобили</option>
+                    <option value="клубы">клубы</option>
+                     <option value="музыка">музыка</option>
+            </select></p>
+            <p><label for="textar" style="position: relative;bottom: 25;"> Ваши пожелания</label> <textarea name="textar"></textarea></p>
+            <p><input type="submit" style="position: relative; left: 60;"><input type="reset" style="position: relative; left: 65;"></p>
+        </form>
+        
+        
+    </body>
+</html>
